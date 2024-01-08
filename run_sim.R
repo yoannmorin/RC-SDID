@@ -20,13 +20,7 @@ set.seed(123)
 
 
 ##### Path to directory
-# CESAER
-#path="D:/Dropbox/Boulot recherche_en cours/encadrement_loyers/RCSDID/my_paper/codes"
-# Home
-#path="G:/Dropbox/Boulot recherche_en cours/encadrement_loyers/RCSDID/my_paper/codes/en_cours_dvt_scalecorshift"
-# Server lab
-path="G:/Dropbox/Boulot recherche_en cours/encadrement_loyers/RCSDID/my_paper/codes/final_home_newrng"
-
+path="yourpathhere"
 
 setwd(path)
 
@@ -180,7 +174,6 @@ tab_size = readRDS("tab_size.rds")
 
 
 ##### Final tables
-# Mise en forme des tables
 fintab = function(df){
   fdf = NULL
   for (j in 1:length(df)) {
@@ -202,8 +195,7 @@ ftab_size = fintab(tab_size)
 
 
 
-# Sortie latex
-# Voir pour remplacer les titres de lignes par qqchose de plus simple, genre juste le/les parametres qui varient
+# Output tex
 ftab_scale %>%
   knitr::kable(format = 'latex', booktabs = TRUE) %>%
   writeLines('sim_tab_scale.tex')
