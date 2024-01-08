@@ -1,2 +1,2 @@
 # RC-SDID
-Replication files for the paper "Synthetic Difference in Differences for Repeated Cross-Sectional Data"
+Replication Files for Morin Yoann, "Synthetic Difference in Differences for Repeated Cross-Sectional Data"
