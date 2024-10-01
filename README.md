@@ -1,5 +1,6 @@
 # RC-SDID
 Replication Files for Morin Yoann, "Synthetic Difference in Differences for Repeated Cross-Sectional Data".
+
 The paper can be found [here](https://arxiv.org/abs/2409.20199).
 
 ## Dependencies 
